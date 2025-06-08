@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CLI_calculator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CLI_calculator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CLI_calculator-Debug-7ac622e1201248bc10dd.json",
+					"name" : "CLI_calculator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "py_calculator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-py_calculator-Debug-e7f1da73a35244f83b07.json",
+					"name" : "py_calculator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_calculator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_calculator-Debug-0428c46f4aef46cbd0aa.json",
+					"name" : "test_calculator",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Admin/CLionProjects/CLI_calculator/cmake-build-debug",
+		"source" : "C:/Users/Admin/CLionProjects/CLI_calculator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,74 @@
+# Variables
+PYTHON=python
+SETUP=setup.py
+BUILD_EXT=build_ext --inplace
+C_TEST_EXEC=test_c.exe
+
+CC = gcc
+CFLAGS = -Icalc
+
+
+build:
+#	cmake -B build
+#	cmake --build build
+#	$(PYTHON) $(SETUP) $(BUILD_EXT)
+	cmake -DCMAKE_BUILD_TYPE=Release -B build
+	cmake --build build --config Release
+	$(PYTHON) $(SETUP) $(BUILD_EXT)
+
+test_c:
+#	$(CC) calc/test_calculator.c calc/calculator.c -o test_c
+#	./test_c
+#
+#	gcc -o $(C_TEST_EXEC) calc/test_calculator.c calc/calculator.c
+	$(CC) $(CFLAGS) calc/test_calculator.c calc/calculator.c -o $(C_TEST_EXEC)
+# Run C tests
+run_c_tests: test_c
+	$(C_TEST_EXEC)
+
+test_py:
+	$(PYTHON) -m unittest discover tests
+run_py_tests:test_py
+
+
+# Run all tests (C and Python)
+test: run_c_tests run_py_tests
+
+clean:
+	-del /f /q *.pyd 2>NUL
+	-rmdir /s /q build  2>NUL
+	-del /f /q $(C_TEST_EXEC)  2>NUL
+
+rebuild: clean build
+
+install:
+	$(PYTHON) -m pip install .
+
+dist:
+	$(PYTHON) -m build
+
+format:
+	black .
+	clang-format -i calc/*.c calc/*.h
+
+lint:
+	pylint $(wildcard *.py) tests/*.py  || exit 0
+	cppcheck --enable=all --inconclusive calc
+
+docs:
+	cd docs && make html
+
+help:
+	@echo "Available targets:"
+	@echo "  build         - Build C and Python modules"
+	@echo "  test          - Run all tests (C and Python)"
+	@echo "  test_c        - Run C unit tests"
+	@echo "  test_py       - Run Python unit tests"
+	@echo "  clean         - Clean build files and artifacts"
+	@echo "  install       - Install Python package"
+	@echo "  rebuild       - Clean and rebuild"
+	@echo "  format        - Auto-format source files"
+	@echo "  lint          - Run code quality checks"
+	@echo "  dist          - Build distribution (wheel/sdist)"
+
+    .PHONY: build test test_c run_c_tests test_py run_py_tests clean rebuild install dist format lint docs help

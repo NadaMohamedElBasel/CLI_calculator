@@ -1,0 +1,18 @@
+# ninja log v5
+41	311	7711015754639849	CMakeFiles/test_calculator.dir/calc/calculator.c.obj	e6b9c2a5b9329a65
+97	392	7711015755279823	CMakeFiles/py_calculator.dir/calc/calculator.c.obj	dec9492f6101e98f
+361	1135	7711015762599787	test_calculator.exe	7280e61e92a6cfd2
+27	360	7711015754759791	CMakeFiles/test_calculator.dir/calc/test_calculator.c.obj	61ca3ac785c43a35
+18	376	7711015755059836	CMakeFiles/CLI_calculator.dir/calc/calculator.c.obj	46356d2e2210e4c9
+377	1218	7711015763529808	CLI_calculator.exe	eca4a32d4cc2b31b
+8	376	7711015754809814	CMakeFiles/CLI_calculator.dir/src/main.c.obj	964a46d27466e222
+61	658	7711015757459819	CMakeFiles/py_calculator.dir/python_bindings/py_calculator.c.obj	181362f358ac1c8c
+85	465	7711017348532886	CMakeFiles/test_calculator.dir/calc/calculator.c.obj	841d433b9b51aa8d
+74	504	7711017347832934	CMakeFiles/test_calculator.dir/calc/test_calculator.c.obj	e4b89fbea8fa2096
+43	594	7711017349492919	CMakeFiles/CLI_calculator.dir/calc/calculator.c.obj	2505dfc30ef6334d
+10	595	7711017350142893	CMakeFiles/CLI_calculator.dir/src/main.c.obj	e58a1b0f8d9c1d5f
+149	653	7711017350612988	CMakeFiles/py_calculator.dir/calc/calculator.c.obj	966f1f426274c592
+96	737	7711017351532916	CMakeFiles/py_calculator.dir/python_bindings/py_calculator.c.obj	ca8610eb34e1fb9b
+596	1980	7711017359702930	CLI_calculator.exe	abcd7ae5b7030105
+504	2401	7711017364362921	test_calculator.exe	5610aa92230f7231
+738	2481	7711017364432885	py_calculator.pyd	104cd962ad1e6a85
