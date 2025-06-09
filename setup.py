@@ -1,3 +1,5 @@
+"""This module sets up the package installation."""
+
 from setuptools import setup, Extension
 
 ################# BEFORE PACKING #################
@@ -11,7 +13,7 @@ setup(
             sources=[
                 "python_bindings/py_calculator.c",
                 "calc/calculator.c",
-                #"calc/calculator.h", causing commit error
+                # "calc/calculator.h", causing commit error
             ],
             include_dirs=["calc"],
         )
