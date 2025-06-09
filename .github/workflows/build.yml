@@ -34,3 +34,23 @@ jobs:
 
       - name: Run Python tests
         run: python -m unittest discover -s tests
+
+      - name: Run black (Python formatter)
+        run: |
+          pip install black
+          black --check .
+
+      - name: Run pylint (Python linter)
+        run: |
+          pip install pylint
+          pylint $(wildcard *.py) tests/*.py
+
+      - name: Run clang-format (C formatter check)
+        run: |
+          sudo apt install clang-format -y
+          clang-format --dry-run --Werror calc/*.c calc/*.h python_bindings/*.c
+
+      - name: Run cppcheck (C static analyzer)
+        run: |
+          sudo apt install cppcheck -y
+          cppcheck --enable=all --error-exitcode=1 calc python_bindings
