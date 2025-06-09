@@ -11,7 +11,7 @@ setup(
             sources=[
                 "python_bindings/py_calculator.c",
                 "calc/calculator.c",
-                "calc/calculator.h",
+                #"calc/calculator.h", causing commit error
             ],
             include_dirs=["calc"],
         )
