@@ -12,7 +12,7 @@ jobs:
         run: sudo apt update && sudo apt install build-essential -y
 
       - name: Build C backend
-        run: gcc test_calculator.c calc/calculator.c -o test_c
+        run: gcc calc/test_calculator.c calc/calculator.c -o test_c
 
       - name: Run C tests
         run: ./test_c
