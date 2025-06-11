@@ -19,8 +19,8 @@ int main(int argc, char* argv[]) {
         printf("%d\n", sub(a, b));
     else if (strcmp(op, "mul") == 0)
         printf("%d\n", mul(a, b));
-    else if (strcmp(op, "div") == 0)
-        printf("%f\n", div((float)a, (float)b));
+    else if (strcmp(op, "divide") == 0)
+        printf("%f\n", divide((float)a, (float)b));
     else
         printf("Invalid operation.\n");
 
