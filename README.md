@@ -1,16 +1,16 @@
 # CLI Calculator
 
 a command-line calculator that performs: addition, subtraction, multiplication, and division with the following architecture:  
- Core Backend Logic implemented in C.  
- Python Interface with setup.py and pyproject.toml (exposed to Python using the C-Python API). 
- Usable as a python API (to be able to import it and use it in a python environment).   
- Also usable as a CLI tool .  
- Comprehensive unit tests for both the C and Python components separated and independently executable.  
- A Makefile with functional targets: build, test, clean, test_c , run_c_tests , test_py , run_py_tests , rebuild , install , dist , format , lint , docs , help.   
- CI/CD with GitHub Actions: Automated workflows for building, testing, code scanning using black (Python formatter) , pylint (Python linter) , clang-format (C formatter check) and cppcheck (C static analyzer).  
- documentation using Sphinx.  
- Ninja as an alternative to Make for building the C backend  .
- pre-commit hooks for code formatting, linting.
+- Core Backend Logic implemented in C.  
+- Python Interface with setup.py and pyproject.toml (exposed to Python using the C-Python API).   
+- Usable as a python API (to be able to import it and use it in a python environment).   
+- Also usable as a CLI tool .  
+- Comprehensive unit tests for both the C and Python components separated and independently executable.  
+- A Makefile with functional targets: build, test, clean, test_c , run_c_tests , test_py , run_py_tests , rebuild , install , dist , format , lint , docs , help.   
+- CI/CD with GitHub Actions: Automated workflows for building, testing, code scanning using black (Python formatter) , pylint (Python linter) , clang-format (C formatter check) and cppcheck (C static analyzer).  
+- documentation using Sphinx.  
+- Ninja as an alternative to Make for building the C backend  .
+- pre-commit hooks for code formatting, linting.
 
 
 ## Features
