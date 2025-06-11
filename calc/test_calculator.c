@@ -6,6 +6,7 @@
 
 int main()
 {
+    printf("Running C unit tests...\n");
     assert(add(1, 2) == 3);
     assert(add(-5, -10) == -15); // Negative numbers
     assert(add(0, 0) == 0); // Zero
@@ -21,5 +22,6 @@ int main()
     assert(mul(100000, 100000) == 10000000000LL); // Large multiplication
 
     assert(divide(10.0, 2.0) == 5.0f);
+    printf("All C tests passed!\n");
     return 0;
 }
