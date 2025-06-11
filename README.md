@@ -88,20 +88,42 @@ CLI_calculator/
 ├── python_bindings/              # Python bindings using C extension  
 │   ├── py_calculator.c                     
 │  
+├── src/               
+│   ├── main.c  
+├── tests/                
+│   ├── test_py_calculator.py                     
 ├── CMakeLists.txt                # Root CMake file  
 ├── setup.py                      # Python packaging for entire project  
-├── pyproject.toml                
-│  
+├── pyproject.toml  
+├── py_calculator.pyd  
+│    
 ├── usage.py                      # Sample usage of Python bindings  
-│  
-├── test_c.exe  
+│ 
+├── Makefile  
+├── .pylintrc  
+├── .pre-commit-config.yaml    
+├── .clang-format    
+├── test_c.exe    
 │  
 ├── build/                        # CMake build directory   
-│   └── ...  
+│   └── ...    
 │  
 ├── dist/                         # Python packaging output   
+│   └── ...    
+│─ build-ninja/  
 │   └── ...  
-│  
-├── README.md  
-└── .gitignore  
+├── .github/                             
+│   ├── workflows/    
+│        ├── build.yml    
+├── cmake/                            
+│   └── ...    
+│── docs/                             
+│   └── ...     
+├── cmake-build-debug/                              
+│   └── ...   
+├── py_calculator.egg-info  /                              
+│   └── ...  
+├── README.md   
+├── requirements.txt  
+└── .gitignore    
 
