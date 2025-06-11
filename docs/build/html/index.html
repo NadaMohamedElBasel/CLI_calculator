@@ -74,9 +74,6 @@
              
   <section id="cli-calculator-documentation">
 <h1>CLI_Calculator documentation<a class="headerlink" href="#cli-calculator-documentation" title="Link to this heading"></a></h1>
-<p>Add your content using <code class="docutils literal notranslate"><span class="pre">reStructuredText</span></code> syntax. See the
-<a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html">reStructuredText</a>
-documentation for details.</p>
 <div class="toctree-wrapper compound">
 <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul>
@@ -87,10 +84,44 @@ documentation for details.</p>
 </div>
 <section id="cli-calculator">
 <h2>CLI_Calculator<a class="headerlink" href="#cli-calculator" title="Link to this heading"></a></h2>
-<p>This project is a simple CLI calculator with a Python C extension.</p>
+<p>a command-line calculator that performs: addition, subtraction, multiplication, and division with the following architecture:</p>
+<ul class="simple">
+<li><p>Core Backend Logic implemented in C.</p></li>
+<li><p>Python Interface with setup.py and pyproject.toml (exposed to Python using the C-Python API).</p></li>
+<li><p>Usable as a python API (to be able to import it and use it in a python environment).</p></li>
+<li><p>Also usable as a CLI tool .</p></li>
+<li><p>Comprehensive unit tests for both the C and Python components separated and independently executable.</p></li>
+<li><p>A Makefile with functional targets: build, test, clean, test_c , run_c_tests , test_py , run_py_tests , rebuild , install , dist , format , lint , docs , help.</p></li>
+<li><p>CI/CD with GitHub Actions: Automated workflows for building, testing, code scanning using black (Python formatter) , pylint (Python linter) , clang-format (C formatter check) and cppcheck (C static analyzer).</p></li>
+<li><p>documentation using Sphinx.</p></li>
+<li><p>Ninja as an alternative to Make for building the C backend .</p></li>
+<li><p>pre-commit hooks for code formatting, linting.</p></li>
+</ul>
+<p>Features</p>
+<ul class="simple">
+<li><p>Perform basic arithmetic operations (addition, subtraction, multiplication, division) from the terminal as a CLI tool or via Python Interface.</p></li>
+<li><p>Python bindings via a C extension (py_calculator).</p></li>
+<li><p>Includes automated code formatting, linting, and documentation.</p></li>
+<li><p>Supports builds using Make or Ninja.</p></li>
+</ul>
 <p>Example:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">py_calculator</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">py_calculator</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>  <span class="c1"># Output: 5</span>
+</pre></div>
+</div>
+<p>As a CLI tool:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>CLI_calculator<span class="w"> </span>add<span class="w"> </span><span class="m">2</span><span class="w"> </span><span class="m">3</span>
+</pre></div>
+</div>
+</section>
+<section id="tests">
+<h2>Tests<a class="headerlink" href="#tests" title="Link to this heading"></a></h2>
+<p>Run C tests:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make<span class="w"> </span>run_c_tests
+</pre></div>
+</div>
+<p>Run Python tests:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make<span class="w"> </span>run_py_tests
 </pre></div>
 </div>
 </section>
