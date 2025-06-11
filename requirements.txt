@@ -3,3 +3,7 @@ black
 pytest
 sphinx
 pre-commit
+unittest
+clang-format
+pylint
+setuptools
