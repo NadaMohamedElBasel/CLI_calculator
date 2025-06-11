@@ -125,5 +125,5 @@ CLI_calculator/
 │   └── ...  
 ├── README.md   
 ├── requirements.txt  
-└── .gitignore    
+   
 
