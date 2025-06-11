@@ -77,4 +77,31 @@ or from project root (CLI_calculator)
 ```bash
 make run_py_tests
 ```
-## Open project documentation using any browser from docs>build>html>index.html  
+## Open project documentation using any browser from docs>build>html>index.html    
+## Project Structure 
+CLI_calculator/  
+├── calc/                          # C source code  
+│   ├── calculator.c  
+│   ├── calculator.h  
+│   └── test_calculator.c         # Unit tests for C  
+│  
+├── python_bindings/              # Python bindings using C extension  
+│   ├── py_calculator.c                     
+│  
+├── CMakeLists.txt                # Root CMake file  
+├── setup.py                      # Python packaging for entire project  
+├── pyproject.toml                
+│  
+├── usage.py                      # Sample usage of Python bindings  
+│  
+├── test_c.exe  
+│  
+├── build/                        # CMake build directory   
+│   └── ...  
+│  
+├── dist/                         # Python packaging output   
+│   └── ...  
+│  
+├── README.md  
+└── .gitignore  
+
