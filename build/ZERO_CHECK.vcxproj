@@ -27,7 +27,6 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F30FF02B-1221-3345-8361-48BA0EA44DD5}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>ZERO_CHECK</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>

@@ -7,6 +7,7 @@ import py_calculator
 # class MyTestCase(unittest.TestCase):
 #     def test_something(self):
 #         self.assertEqual(True, False)  # add assertion here
+
 class TestPyCalculator(unittest.TestCase):
     """Unit tests for py_calculator bindings."""
 
@@ -42,4 +43,6 @@ class TestPyCalculator(unittest.TestCase):
 
 
 if __name__ == "__main__":
+    print("Running Python unit test...")
     unittest.main()
+    print("Python test passed!")
