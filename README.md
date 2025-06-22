@@ -57,7 +57,15 @@ make build
 ```
 or  
 ```bash
-ninja
+ninja -C build-ninja 
+cd build-ninja 
+CLI_calculator.exe add 2 3
+
+test_calculator.exe 
+
+python
+import py_calculator
+print(py_calculator.add(2, 3))
 ```  
 ### 5. Run unit tests  
 for c testing from project root (CLI_calculator)
