@@ -21,6 +21,8 @@ int main(int argc, char* argv[]) {
         printf("%d\n", mul(a, b));
     else if (strcmp(op, "divide") == 0)
         printf("%f\n", divide((float)a, (float)b));
+    else if (strcmp(op, "power") == 0)
+        printf("%f\n", power((float)a, (float)b));
     else
         printf("Invalid operation.\n");
 

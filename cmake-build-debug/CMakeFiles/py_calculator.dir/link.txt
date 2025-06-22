@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\py_calculator.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\ar.exe qc CMakeFiles\py_calculator.dir/objects.a @CMakeFiles\py_calculator.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -g -shared -o py_calculator.pyd -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\py_calculator.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\py_calculator.dir\linkLibs.rsp

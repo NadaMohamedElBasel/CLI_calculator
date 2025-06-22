@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\Admin\CLionProjects\CLI_calculator\build\x64\Release\ZERO_CHECK</FullPath>
+      <FullPath>C:\cli\CLI_calculator\build\x64\Release\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\Admin\CLionProjects\CLI_calculator\build\Release\py_calculator.pyd</FullPath>
+      <FullPath>C:\cli\CLI_calculator\build\Release\py_calculator.pyd</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
