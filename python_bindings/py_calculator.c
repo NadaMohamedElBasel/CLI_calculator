@@ -30,6 +30,15 @@ static PyObject* py_mul(PyObject* self, PyObject* args)
     return PyLong_FromLongLong(result);
 }
 
+static PyObject* py_power(PyObject* self, PyObject* args)
+{
+    int a, b;
+    if (!PyArg_ParseTuple(args, "ii", &a, &b))
+        return NULL;
+    long long result = power(a, b);
+    return PyLong_FromLongLong(result);
+}
+
 // Python wrapper for div
 static PyObject* py_divide(PyObject* self, PyObject* args)
 {
@@ -47,6 +56,7 @@ static PyObject* py_divide(PyObject* self, PyObject* args)
 static PyMethodDef Methods[] = {{"add", py_add, METH_VARARGS, "Add two numbers"},
                                 {"sub", py_sub, METH_VARARGS, "Subtract two integers"},
                                 {"mul", py_mul, METH_VARARGS, "Multiply two integers"},
+                                {"power", py_power, METH_VARARGS, "power a float number"},
                                 {"divide", py_divide, METH_VARARGS, "Divide two floats"},
                                 {NULL, NULL, 0, NULL}};
 

@@ -9,5 +9,6 @@ int add(int a, int b);
 int sub(int a, int b);
 long long mul(int a, int b);
 float divide(float a, float b);
+float power (float a , float b);
 
 #endif // CALCULATOR_H

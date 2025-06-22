@@ -25,7 +25,7 @@ C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows-MSVC-C.cmake
 C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/WindowsPaths.cmake
-C:/Users/Admin/CLionProjects/CLI_calculator/CMakeLists.txt
-C:/Users/Admin/CLionProjects/CLI_calculator/build/CMakeFiles/4.0.2/CMakeCCompiler.cmake
-C:/Users/Admin/CLionProjects/CLI_calculator/build/CMakeFiles/4.0.2/CMakeRCCompiler.cmake
-C:/Users/Admin/CLionProjects/CLI_calculator/build/CMakeFiles/4.0.2/CMakeSystem.cmake
+C:/cli/CLI_calculator/CMakeLists.txt
+C:/cli/CLI_calculator/build/CMakeFiles/4.0.2/CMakeCCompiler.cmake
+C:/cli/CLI_calculator/build/CMakeFiles/4.0.2/CMakeRCCompiler.cmake
+C:/cli/CLI_calculator/build/CMakeFiles/4.0.2/CMakeSystem.cmake

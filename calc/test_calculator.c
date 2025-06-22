@@ -3,6 +3,7 @@
 //
 #include <assert.h>
 #include "calculator.h"
+#include <stdio.h>
 
 int main()
 {
@@ -22,6 +23,9 @@ int main()
     assert(mul(100000, 100000) == 10000000000LL); // Large multiplication
 
     assert(divide(10.0, 2.0) == 5.0f);
+
+    assert(power(2.0, 3.0) == 8.0f);
+
     printf("All C tests passed!\n");
     return 0;
 }

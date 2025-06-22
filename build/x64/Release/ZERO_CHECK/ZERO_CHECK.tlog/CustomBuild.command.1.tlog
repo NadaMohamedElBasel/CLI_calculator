@@ -1,6 +1,6 @@
-^C:\USERS\ADMIN\CLIONPROJECTS\CLI_CALCULATOR\BUILD\CMAKEFILES\DC39342419153116EA483331FB929715\GENERATE.STAMP.RULE
+^C:\CLI\CLI_CALCULATOR\BUILD\CMAKEFILES\36A8455D2D1B4D3C7774B3DFA7563E86\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Admin/CLionProjects/CLI_calculator -BC:/Users/Admin/CLionProjects/CLI_calculator/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Admin/CLionProjects/CLI_calculator/build/CLI_calculator.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/cli/CLI_calculator -BC:/cli/CLI_calculator/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/cli/CLI_calculator/build/CLI_calculator.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

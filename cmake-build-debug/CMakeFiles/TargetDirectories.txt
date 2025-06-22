@@ -1,6 +1,6 @@
-C:/Users/Admin/CLionProjects/CLI_calculator/cmake-build-debug/CMakeFiles/CLI_calculator.dir
-C:/Users/Admin/CLionProjects/CLI_calculator/cmake-build-debug/CMakeFiles/test_calculator.dir
-C:/Users/Admin/CLionProjects/CLI_calculator/cmake-build-debug/CMakeFiles/py_calculator.dir
-C:/Users/Admin/CLionProjects/CLI_calculator/cmake-build-debug/CMakeFiles/test.dir
-C:/Users/Admin/CLionProjects/CLI_calculator/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Admin/CLionProjects/CLI_calculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/cli/CLI_calculator/cmake-build-debug/CMakeFiles/CLI_calculator.dir
+C:/cli/CLI_calculator/cmake-build-debug/CMakeFiles/test_calculator.dir
+C:/cli/CLI_calculator/cmake-build-debug/CMakeFiles/py_calculator.dir
+C:/cli/CLI_calculator/cmake-build-debug/CMakeFiles/test.dir
+C:/cli/CLI_calculator/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/cli/CLI_calculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir

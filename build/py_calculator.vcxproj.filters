@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Admin\CLionProjects\CLI_calculator\python_bindings\py_calculator.c">
+    <ClCompile Include="C:\cli\CLI_calculator\python_bindings\py_calculator.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Admin\CLionProjects\CLI_calculator\calc\calculator.c">
+    <ClCompile Include="C:\cli\CLI_calculator\calc\calculator.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Admin\CLionProjects\CLI_calculator\calc\calculator.h">
+    <ClInclude Include="C:\cli\CLI_calculator\calc\calculator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Admin\CLionProjects\CLI_calculator\CMakeLists.txt" />
+    <CustomBuild Include="C:\cli\CLI_calculator\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{9B9AE2C9-CAC7-31D8-B8FD-8942C58A5A69}</UniqueIdentifier>
+      <UniqueIdentifier>{CC48E88C-8120-3713-A341-70010B2B6094}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{F11C0B97-AF84-3341-B95E-3BDADF443E28}</UniqueIdentifier>
+      <UniqueIdentifier>{F1A4BBCD-CD2B-34A0-94BE-D2A06F8B7324}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
