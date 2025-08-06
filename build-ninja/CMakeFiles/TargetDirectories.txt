@@ -1,6 +1,0 @@
-C:/Users/Admin/CLionProjects/CLI_calculator/build-ninja/CMakeFiles/CLI_calculator.dir
-C:/Users/Admin/CLionProjects/CLI_calculator/build-ninja/CMakeFiles/test_calculator.dir
-C:/Users/Admin/CLionProjects/CLI_calculator/build-ninja/CMakeFiles/py_calculator.dir
-C:/Users/Admin/CLionProjects/CLI_calculator/build-ninja/CMakeFiles/test.dir
-C:/Users/Admin/CLionProjects/CLI_calculator/build-ninja/CMakeFiles/edit_cache.dir
-C:/Users/Admin/CLionProjects/CLI_calculator/build-ninja/CMakeFiles/rebuild_cache.dir
